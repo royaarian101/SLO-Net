@@ -60,6 +60,7 @@ All the dictionaries were saved in pickle file format for further processing.
 
 
 reference: 
+
 (1) Kafieh R, Rabbani H, Abramoff MD, Sonka M. Intra-retinal layer segmentation of 3D optical coherence tomography using coarse grained diffusion map. Medical Image Analysis. 2013 Dec;17(8):907–28. 
 
 
