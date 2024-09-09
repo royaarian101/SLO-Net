@@ -40,13 +40,19 @@ The value corresponding to each key was made up of a list containing pairs of IR
 
 In addition to the dictionaries for saving the merged image datasets (IR-SLO image and OCT thickness map pairs), two additional dictionaries were created for storing labels: one for training, named "train_merged_data_with_sp_labels", and one for internal testing, named "test_merged_data_with_sp_labels". These dictionaries use subject indices as keys, with values representing the subject's label (0 for healthy controls and 1 for multiple sclerosis).
 
-
-All the dictionaries were saved in pickle file format for further processing.
-
-*Please install the required packages using the requirements.txt file.*
+To obtain the results after creating the datasets, please follow these steps:
 
 
-**Now run the file “Bimodal_model_classifier.py” with your prepared datasets.**
+
+
+1)  Save all the generated dictionaries in a pickle file format for future processing.
+
+
+2)  Install the necessary packages by using the requirements.txt file.
+
+
+3)  Execute the Bimodal_model_classifier.py script with the prepared datasets.
+4)  
 
 The file "merged_model.ipynb" contains the equivalent code for execution in Google Colab.
 
