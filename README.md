@@ -46,6 +46,8 @@ All the dictionaries were saved in pickle file format for further processing.
 
 **Now run the file “Bimodal_model_classifier.py” with your prepared datasets.**
 
+The file "merged_model.ipynb" contains the equivalent code for execution in Google Colab.
+
 
 *For the **Optuna** code, please refer to : https://github.com/royaarian101/Optuna*
 
