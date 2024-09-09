@@ -52,7 +52,7 @@ To obtain the results after creating the datasets, please follow these steps:
 
 
 3)  Execute the Bimodal_model_classifier.py script with the prepared datasets.
-4)  
+
 
 The file "merged_model.ipynb" contains the equivalent code for execution in Google Colab.
 
