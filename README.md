@@ -43,10 +43,14 @@ In addition to the dictionaries for saving the merged image datasets (IR-SLO ima
 
 All the dictionaries were saved in pickle file format for further processing.
 
+*Please install the required packages using the requirements.txt file.*
+
 
 **Now run the file “Bimodal_model_classifier.py” with your prepared datasets.**
 
 The file "merged_model.ipynb" contains the equivalent code for execution in Google Colab.
+
+
 
 
 *For the **Optuna** code, please refer to : https://github.com/royaarian101/Optuna*
