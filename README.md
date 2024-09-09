@@ -50,10 +50,11 @@ In addition to the dictionaries for saving the merged image datasets (IR-SLO ima
 All the dictionaries were saved in pickle file format for further processing.
 
 
-**Run the file “Bimodal_model_classifier.py”**
+**Now run the file “Bimodal_model_classifier.py” with your prepared datasets.**
 
 
 *For the **Optuna** code, please refer to : https://github.com/royaarian101/Optuna*
+
 
 
 
