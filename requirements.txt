@@ -1,0 +1,16 @@
+google-auth-oauthlib==0.4.6
+keras==2.8.0
+Keras-Preprocessing==1.1.2
+protobuf==3.19.6
+tensorboard==2.8.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow==2.8.4
+tensorflow-estimator==2.8.0
+numpy==1.26.4
+pickleshare==0.7.5
+cloudpickle==3.0.0
+sklearn-pandas==2.2.0
+matplotlib==3.7.1
+matplotlib-inline==0.1.7
+
