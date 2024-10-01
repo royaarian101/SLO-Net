@@ -4,14 +4,14 @@
 
 ***SLO-Net:***
 
-
+# Introduction
 In this study, we introduce SLO-Net, a novel bi-modal model designed for diagnosing multiple sclerosis (MS). This approach utilizes a dataset from Isfahan, Iran, which includes IR-SLO images and OCT data from 32 MS patients and 70 healthy individuals.
 
 We trained several convolutional neural networks (CNNs)—namely, VGG-16, VGG-19, ResNet-50, ResNet-101, and a custom architecture—using both IR-SLO images and OCT thickness maps as separate input modalities. The best-performing models for each modality (ResNet-101 for both) were then combined to create a bi-modal model that integrates both OCT thickness maps and IR-SLO images.
 
 Incorporating both modalities enhances the performance of automated MS diagnosis, highlighting the value of using IR-SLO as a complementary tool alongside OCT.
 
-
+# Data Prepration
 **To run this code, you first need to create properly formatted training and testing dataset dictionaries. Below, we discuss our dataset and the process for creating the input data. You can follow a similar approach to prepare your own dataset.**
 
 Our dataset consists of IR-SLO and OCT scans from 102 individuals, including 32 with multiple sclerosis (MS) and 70 healthy controls (HC).
@@ -40,6 +40,7 @@ The value corresponding to each key was made up of a list containing pairs of IR
 
 In addition to the dictionaries for saving the merged image datasets (IR-SLO image and OCT thickness map pairs), two additional dictionaries were created for storing labels: one for training, named "train_merged_data_with_sp_labels", and one for internal testing, named "test_merged_data_with_sp_labels". These dictionaries use subject indices as keys, with values representing the subject's label (0 for healthy controls and 1 for multiple sclerosis).
 
+# Run Codes
 To obtain the results after creating the datasets, please follow these steps:
 
 
@@ -58,18 +59,18 @@ The file "merged_model.ipynb" contains the equivalent code for execution in Goog
 
 
 
-
+# Optuna Code
 *For the **Optuna** code, please refer to : https://github.com/royaarian101/Optuna*
 
 
 
 
-reference: 
+# reference: 
 (1) Kafieh R, Rabbani H, Abramoff MD, Sonka M. Intra-retinal layer segmentation of 3D optical coherence tomography using coarse grained diffusion map. Medical Image Analysis. 2013 Dec;17(8):907–28. 
 
 
 
-
+# Citing
 **Please ensure to include the following citations when utilizing any part of the code:**
 
 **[1] Arian, R., Aghababaei, A., Soltanipour, A., Khodabandeh, Z., Rakhshani, S., Iyer, S. B., Ashtari, F., Rabbani, H., & Kafieh, R. (2024). SLO-net: Enhancing multiple sclerosis diagnosis beyond optical coherence tomography using infrared reflectance scanning laser > ophthalmoscopy images. Translational Vision Science & Technology, 13(7), 13. https://doi.org/10.1167/tvst.13.7.13**
